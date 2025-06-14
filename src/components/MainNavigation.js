@@ -2,8 +2,6 @@ import { NavLink } from "react-router-dom";
 import classes from "./MainNavigation.module.css";
 
 function MainNavigation() {
-  console.log(classes.active)
-
   return (
     <header className={classes.header}>
       <nav>
